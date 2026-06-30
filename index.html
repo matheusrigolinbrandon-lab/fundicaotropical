@@ -237,7 +237,7 @@ footer a{color:var(--gold);text-decoration:none}
 
   <div class="stats">
     <div class="stat"><span class="sn">40+</span><span class="sl">Anos de história</span></div>
-    <div class="stat"><span class="sn">67+</span><span class="sl">Produtos no catálogo</span></div>
+    <div class="stat"><span class="sn">101+</span><span class="sl">Produtos no catálogo</span></div>
     <div class="stat"><span class="sn">1985</span><span class="sl">Fundação</span></div>
     <div class="stat"><span class="sn">Brasil</span><span class="sl">Atendimento nacional</span></div>
   </div>
@@ -253,6 +253,8 @@ footer a{color:var(--gold);text-decoration:none}
         <div class="cat" onclick="showCat('sacras');showPage('catalogo')"><span class="cat-ic">🕊</span><div class="cat-t">Imagens Sacras</div><div class="cat-d">Nossa Senhora, São Miguel, Jesus e anjos em bronze dourado, policromado e niquelado. Arte sacra de alto padrão.</div><div class="cat-n">19 peças · Vários acabamentos</div><span class="cat-arr">→</span></div>
         <div class="cat" onclick="showCat('igreja');showPage('catalogo')"><span class="cat-ic">⛪</span><div class="cat-t">Peças para Igreja</div><div class="cat-d">Cálices, castiçais, candelabros, sacrários e peças litúrgicas em bronze dourado e metal niquelado.</div><div class="cat-n">16 produtos · Bronze e Prata</div><span class="cat-arr">→</span></div>
         <div class="cat" onclick="showCat('letras');showPage('catalogo')"><span class="cat-ic">🔠</span><div class="cat-t">Letras e Manuscritos</div><div class="cat-d">Nomes e datas em bronze fundido. Manuscritos cursivos, caixa alta e numeração. 100% personalizados.</div><div class="cat-n">7 estilos · Totalmente personalizável</div><span class="cat-arr">→</span></div>
+        <div class="cat" onclick="showCat('ostensorios');showPage('catalogo')"><span class="cat-ic">✨</span><div class="cat-t">Ostensórios</div><div class="cat-d">Peças litúrgicas para exposição e adoração ao Santíssimo Sacramento. Estilos barroco, gótico, solar e contemporâneo em bronze dourado ou prateado.</div><div class="cat-n">12 modelos · Bronze dourado e prateado</div><span class="cat-arr">→</span></div>
+        <div class="cat" onclick="showCat('apliques');showPage('catalogo')"><span class="cat-ic">🪆</span><div class="cat-t">Apliques para Móveis</div><div class="cat-d">Puxadores, rosetas, argolas e batedores em bronze fundido para móveis clássicos, coloniais e de época.</div><div class="cat-n">22 modelos · Bronze dourado envelhecido</div><span class="cat-arr">→</span></div>
         <div class="cat" onclick="showPage('orcamento')"><span class="cat-ic">◈</span><div class="cat-t">Sob Encomenda</div><div class="cat-d">Peças exclusivas e personalizadas. Apliques, artesanais, industriais e outros produtos especiais. Consulte.</div><div class="cat-n">Consulte disponibilidade</div><span class="cat-arr">→</span></div>
       </div>
     </section>
@@ -297,6 +299,8 @@ footer a{color:var(--gold);text-decoration:none}
     <button class="tab" onclick="showCat('sacras')">🕊 Imagens Sacras</button>
     <button class="tab" onclick="showCat('igreja')">⛪ Igreja</button>
     <button class="tab" onclick="showCat('letras')">🔠 Letras</button>
+    <button class="tab" onclick="showCat('ostensorios')">✨ Ostensórios</button>
+    <button class="tab" onclick="showCat('apliques')">🪆 Apliques</button>
   </div>
 
   <div class="cpanel active" id="cat-cemiterio">
@@ -723,6 +727,20 @@ footer a{color:var(--gold);text-decoration:none}
 </div><div class="empty" id="empty-letras">Nenhum produto encontrado.</div></div>
   </div>
 
+  <div class="cpanel" id="cat-ostensorios">
+    <div class="filters" style="border-bottom:1px solid var(--brd)">
+      <span class="flbl">Catálogo completo:</span>
+    </div>
+    <iframe src="ostensorios.html" style="width:100%;border:none;display:block;min-height:calc(100vh - 120px)" onload="this.style.height=Math.max(this.contentWindow.document.body.scrollHeight,600)+'px'"></iframe>
+  </div>
+
+  <div class="cpanel" id="cat-apliques">
+    <div class="filters" style="border-bottom:1px solid var(--brd)">
+      <span class="flbl">Catálogo completo:</span>
+    </div>
+    <iframe src="apliques_moveis.html" style="width:100%;border:none;display:block;min-height:calc(100vh - 120px)" onload="this.style.height=Math.max(this.contentWindow.document.body.scrollHeight,600)+'px'"></iframe>
+  </div>
+
   <div class="cta-bar">
     <h3>Precisa de um produto específico?</h3>
     <p>Entre em contato pelo WhatsApp. Atendemos todo o Brasil com qualidade artesanal desde 1985.</p>
@@ -828,6 +846,8 @@ footer a{color:var(--gold);text-decoration:none}
       <a onclick="showCat('sacras');showPage('catalogo')"><span class="cln">🕊 Imagens Sacras</span><span class="cla">→</span></a>
       <a onclick="showCat('igreja');showPage('catalogo')"><span class="cln">⛪ Peças para Igreja</span><span class="cla">→</span></a>
       <a onclick="showCat('letras');showPage('catalogo')"><span class="cln">🔠 Letras e Manuscritos</span><span class="cla">→</span></a>
+      <a onclick="showCat('ostensorios');showPage('catalogo')"><span class="cln">✨ Ostensórios</span><span class="cla">→</span></a>
+      <a onclick="showCat('apliques');showPage('catalogo')"><span class="cln">🪆 Apliques para Móveis</span><span class="cla">→</span></a>
     </div>
     <div class="ibox"><p><strong>Localização:</strong> Maringá, Paraná<br><strong>Atendimento:</strong> Todo o Brasil com entrega pelos Correios e transportadoras<br><strong>Prazo:</strong> Sob consulta conforme o produto<br><strong>Fundação:</strong> 1985 — mais de 40 anos de tradição artesanal</p></div>
   </div>
@@ -852,7 +872,7 @@ function showCat(n){
   var c=document.getElementById('cat-'+n);
   if(c)c.classList.add('active');
   document.querySelectorAll('.tab').forEach(function(t){t.classList.remove('active')});
-  var m={cemiterio:0,crucifixos:1,sacras:2,igreja:3,letras:4};
+  var m={cemiterio:0,crucifixos:1,sacras:2,igreja:3,letras:4,ostensorios:5,apliques:6};
   var ts=document.querySelectorAll('.tab');
   if(ts[m[n]])ts[m[n]].classList.add('active');
 }
