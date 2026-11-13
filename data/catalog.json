@@ -1,0 +1,1193 @@
+[
+ {
+  "slug": "cemiterio",
+  "title": "Peças para Cemitério",
+  "description": "Placas memoriais em bronze ou alumínio com porta-retrato, letras em relevo e ornamentos exclusivos. Personalizadas com nome e datas.",
+  "note": "17 modelos · Bronze e Alumínio",
+  "filtersNote": "✦ Todas personalizáveis",
+  "filters": [
+   {
+    "label": "Com foto",
+    "tag": "porta-retrato"
+   },
+   {
+    "label": "Casal",
+    "tag": "casal"
+   },
+   {
+    "label": "Pergaminho",
+    "tag": "pergaminho"
+   },
+   {
+    "label": "Bíblia",
+    "tag": "bíblia"
+   }
+  ],
+  "products": [
+   {
+    "code": "FT-CEM-01",
+    "name": "Placa c/ Porta-Retrato Oval e Folha de Palmeira",
+    "image": "/img/placa-c-porta-retrato-oval-e-folha-de-palmeira.webp",
+    "description": "Porta-retrato oval ornamentado com folha de palmeira. Personalizável com nome e datas.",
+    "application": "Jazigos, túmulos, gavetas e mausoléus",
+    "tags": [
+     "porta-retrato",
+     "lateral"
+    ],
+    "finishes": [
+     "Bronze Fundido",
+     "Alumínio Fundido"
+    ],
+    "badge": "Com foto",
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CEM-02",
+    "name": "Placa c/ Coroa de Louros e Porta-Retrato",
+    "image": "/img/placa-c-coroa-de-louros-e-porta-retrato.webp",
+    "description": "Estilo vertical clássico com coroa de louros dourada. Ideal como cabeceira de túmulo.",
+    "application": "Cabeceiras de túmulo, jazigos e mausoléus",
+    "tags": [
+     "porta-retrato",
+     "coroa",
+     "cabeceira"
+    ],
+    "finishes": [
+     "Bronze Fundido",
+     "Alumínio Fundido"
+    ],
+    "badge": "Cabeceira",
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CEM-03",
+    "name": "Placa Dupla para Casal — Dois Porta-Retratos e Rosas",
+    "image": "/img/placa-dupla-para-casal-dois-porta-retratos-e-rosas.webp",
+    "description": "Dois porta-retratos ovais com rosas em bronze. Espaço para dois nomes e datas.",
+    "application": "Jazigos e mausoléus para casal",
+    "tags": [
+     "casal",
+     "dois",
+     "porta-retratos"
+    ],
+    "finishes": [
+     "Bronze Fundido",
+     "Alumínio Fundido"
+    ],
+    "badge": "Casal",
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CEM-06",
+    "name": "Placa em Formato de Pergaminho Clássico",
+    "image": "/img/placa-em-formato-de-pergaminho-classico.webp",
+    "description": "Pergaminho enrolado em bronze com acabamento envelhecido.",
+    "application": "Jazigos, túmulos e nichos",
+    "tags": [
+     "pergaminho",
+     "sem-foto"
+    ],
+    "finishes": [
+     "Bronze Fundido",
+     "Alumínio Fundido"
+    ],
+    "badge": "Pergaminho",
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CEM-09",
+    "name": "Placa com Foto Cerâmica e Moldura Barroca",
+    "image": "/img/placa-com-foto-ceramica-e-moldura-barroca.webp",
+    "description": "Foto cerâmica em moldura oval barroca. Resistente às intempéries.",
+    "application": "Jazigos, túmulos e nichos individuais",
+    "tags": [
+     "foto-cerâmica",
+     "porta-retrato",
+     "barroca"
+    ],
+    "finishes": [
+     "Bronze Fundido",
+     "Alumínio Fundido"
+    ],
+    "badge": "Foto Cerâmica",
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CEM-11",
+    "name": "Placa em Formato de Bíblia Aberta",
+    "image": "/img/placa-em-formato-de-biblia-aberta.webp",
+    "description": "Design único em formato de bíblia fundida. Espaço para versículo bíblico.",
+    "application": "Jazigos, túmulos e espaços religiosos",
+    "tags": [
+     "bíblia",
+     "religiosa"
+    ],
+    "finishes": [
+     "Bronze Fundido",
+     "Alumínio Fundido"
+    ],
+    "badge": "Bíblia Aberta",
+    "fit": "contain"
+   }
+  ]
+ },
+ {
+  "slug": "crucifixos",
+  "title": "Crucifixos e Cristos",
+  "description": "Cristos, crucifixos e cruzes em bronze fundido. Clássicos, contemporâneos e minimalistas para igrejas e cemitérios.",
+  "note": "8 modelos · Bronze dourado",
+  "filtersNote": "✦ Bronze dourado",
+  "filters": [
+   {
+    "label": "Crucifixo completo",
+    "tag": "completo"
+   },
+   {
+    "label": "Só o Cristo",
+    "tag": "sem-cruz"
+   },
+   {
+    "label": "Só a Cruz",
+    "tag": "sem-cristo"
+   },
+   {
+    "label": "Moderno",
+    "tag": "moderno"
+   }
+  ],
+  "products": [
+   {
+    "code": "FT-CRU-01",
+    "name": "Cristo Clássico em Bronze Dourado — Sem Cruz",
+    "image": "/img/cristo-classico-em-bronze-dourado-sem-cruz.webp",
+    "description": "Modelagem anatômica refinada com coroa de espinhos. Para fixação em cruz de madeira.",
+    "application": "Igrejas, capelas, cemitérios e residências",
+    "tags": [
+     "sem-cruz",
+     "clássico"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CRU-02",
+    "name": "Cristo Contemporâneo Abstrato em Bronze",
+    "image": "/img/cristo-contemporaneo-abstrato-em-bronze.webp",
+    "description": "Design contemporâneo e formas abstratas. Silhueta estilizada de grande impacto visual.",
+    "application": "Igrejas modernas e capelas",
+    "tags": [
+     "sem-cruz",
+     "moderno",
+     "abstrato"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CRU-04",
+    "name": "Crucifixo Completo — Cruz Fina com INRI",
+    "image": "/img/crucifixo-completo-cruz-fina-com-inri.webp",
+    "description": "Cruz de perfil fino com Cristo de modelagem clássica e placa INRI.",
+    "application": "Igrejas, capelas e cemitérios",
+    "tags": [
+     "completo",
+     "inri",
+     "clássico"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CRU-05",
+    "name": "Crucifixo Completo — Cruz Robusta com Pergaminho",
+    "image": "/img/crucifixo-completo-cruz-robusta-com-pergaminho.webp",
+    "description": "Cruz robusta com Cristo clássico e placa INRI em formato de pergaminho.",
+    "application": "Igrejas, capelas e sacristias",
+    "tags": [
+     "completo",
+     "inri",
+     "robusto",
+     "clássico"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CRU-06",
+    "name": "Crucifixo Moderno com Cristo Estilizado",
+    "image": "/img/crucifixo-moderno-com-cristo-estilizado.webp",
+    "description": "Cristo estilizado de formas orgânicas. Fusão entre arte sacra e design contemporâneo.",
+    "application": "Igrejas modernas e capelas",
+    "tags": [
+     "completo",
+     "moderno",
+     "estilizado"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-CRU-07",
+    "name": "Cruz Simples em Bronze — Perfil Fino",
+    "image": "/img/cruz-simples-em-bronze-perfil-fino.webp",
+    "description": "Linhas minimalistas com acabamento escovado. Para lápides, túmulos e jazigos.",
+    "application": "Lápides, túmulos, jazigos e igrejas",
+    "tags": [
+     "sem-cristo",
+     "minimalista",
+     "fina"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   }
+  ]
+ },
+ {
+  "slug": "sacras",
+  "title": "Imagens Sacras",
+  "description": "Nossa Senhora, São Miguel, Jesus e anjos em bronze dourado, policromado e niquelado. Arte sacra de alto padrão.",
+  "note": "19 peças · Vários acabamentos",
+  "filtersNote": "✦ Arte sacra desde 1985",
+  "filters": [
+   {
+    "label": "Nossa Senhora",
+    "tag": "nossa-senhora"
+   },
+   {
+    "label": "São Miguel",
+    "tag": "sao-miguel"
+   },
+   {
+    "label": "Anjos",
+    "tag": "anjo"
+   },
+   {
+    "label": "Jesus",
+    "tag": "jesus"
+   },
+   {
+    "label": "Dourado",
+    "tag": "dourado"
+   },
+   {
+    "label": "Policromado",
+    "tag": "policromada"
+   }
+  ],
+  "products": [
+   {
+    "code": "FT-SAC-01",
+    "name": "N. Sra. do Perpétuo Socorro — Bronze Dourado e Prata",
+    "image": "/img/n-sra-do-perpetuo-socorro-bronze-dourado-e-prata.webp",
+    "description": "Ícone em bronze dourado com rosto em prata e pedras coloridas.",
+    "application": "Igrejas, capelas, altares e oratórios",
+    "tags": [
+     "nossa-senhora",
+     "perpetuo-socorro",
+     "dourado",
+     "prata"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-SAC-02",
+    "name": "N. Sra. do Perpétuo Socorro — Policromada",
+    "image": "/img/n-sra-do-perpetuo-socorro-policromada.webp",
+    "description": "Alto-relevo com policromia em tons de azul e dourado. Coroa com pedras coloridas.",
+    "application": "Igrejas, santuários e oratórios",
+    "tags": [
+     "nossa-senhora",
+     "perpetuo-socorro",
+     "policromada",
+     "azul"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-SAC-05",
+    "name": "São Miguel Arcanjo com Balança da Justiça",
+    "image": "/img/sao-miguel-arcanjo-com-balanca-da-justica.webp",
+    "description": "Escultura imponente com coroa, asas abertas, espada e balança. Base octogonal.",
+    "application": "Igrejas, escritórios e residências",
+    "tags": [
+     "sao-miguel",
+     "arcanjo",
+     "balança",
+     "prata",
+     "grande"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-SAC-06",
+    "name": "Jesus Misericordioso — Imagem Policromada",
+    "image": "/img/jesus-misericordioso-imagem-policromada.webp",
+    "description": "Policromia fiel com raios vermelhos e azuis. Base azul com inscrição.",
+    "application": "Igrejas, capelas, oratórios e cemitérios",
+    "tags": [
+     "jesus",
+     "misericordioso",
+     "policromado",
+     "azul"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-SAC-11",
+    "name": "Anjo Orante de Joelhos com Asas Abertas",
+    "image": "/img/anjo-orante-de-joelhos-com-asas-abertas.webp",
+    "description": "Anjo ajoelhado em bronze niquelado com asas amplamente abertas.",
+    "application": "Altares, jazigos e cemitérios",
+    "tags": [
+     "anjo",
+     "orante",
+     "joelhos",
+     "asas",
+     "prata"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-SAC-13",
+    "name": "N. Sra. das Graças — Bronze Dourado",
+    "image": "/img/n-sra-das-gracas-bronze-dourado.webp",
+    "description": "Postura clássica com braços abertos sobre globo com serpente.",
+    "application": "Igrejas, capelas e cemitérios",
+    "tags": [
+     "nossa-senhora",
+     "gracas",
+     "dourado",
+     "estatua"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   }
+  ]
+ },
+ {
+  "slug": "igreja",
+  "title": "Peças para Igreja",
+  "description": "Cálices, castiçais, candelabros, sacrários e peças litúrgicas em bronze dourado e metal niquelado.",
+  "note": "16 produtos · Bronze e Prata",
+  "filtersNote": "✦ Peças litúrgicas",
+  "filters": [
+   {
+    "label": "Cálices",
+    "tag": "cálice"
+   },
+   {
+    "label": "Castiçais",
+    "tag": "castiçal"
+   },
+   {
+    "label": "Sacrário",
+    "tag": "sacrário"
+   },
+   {
+    "label": "Arca",
+    "tag": "arca"
+   },
+   {
+    "label": "Candelabro",
+    "tag": "candelabro"
+   }
+  ],
+  "products": [
+   {
+    "code": "FT-IGR-01",
+    "name": "Cálice Litúrgico com Tampa e Bolsa em Veludo",
+    "image": "/img/calice-liturgico-com-tampa-e-bolsa-em-veludo.webp",
+    "description": "Conjunto completo em metal niquelado prata com tampa cônica e bolsa de veludo vermelho.",
+    "application": "Missas, celebrações eucarísticas e capelas",
+    "tags": [
+     "cálice",
+     "tampa",
+     "bolsa",
+     "veludo",
+     "prata"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-IGR-03",
+    "name": "Candelabro de 4 Braços em Metal Niquelado",
+    "image": "/img/candelabro-de-4-bracos-em-metal-niquelado.webp",
+    "description": "Quatro braços curvos com volutas elegantes. Haste central torneada com base circular.",
+    "application": "Altares, capelas e cerimônias litúrgicas",
+    "tags": [
+     "candelabro",
+     "4-braços",
+     "altar",
+     "prata"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-IGR-05",
+    "name": "Castiçal Alto de Altar com Base Tripé",
+    "image": "/img/castical-alto-de-altar-com-base-tripe.webp",
+    "description": "Castiçal alto com base tripé floral e haste tubular slim.",
+    "application": "Altares de igrejas e capelas",
+    "tags": [
+     "castiçal",
+     "alto",
+     "altar",
+     "tripé",
+     "prata"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-IGR-10",
+    "name": "Sacrário / Tabernáculo em Bronze Dourado",
+    "image": "/img/sacrario-tabernaculo-em-bronze-dourado.webp",
+    "description": "Monumental em bronze dourado. Cordeiro de Deus em relevo. Interior em veludo vermelho.",
+    "application": "Igrejas, capelas e santuários",
+    "tags": [
+     "sacrário",
+     "tabernáculo",
+     "bronze",
+     "dourado",
+     "cordeiro"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-IGR-11",
+    "name": "Cálice Gótico em Bronze Dourado — Base Lobulada",
+    "image": "/img/calice-gotico-em-bronze-dourado-base-lobulada.webp",
+    "description": "Copa ampla com haste torneada e nó central. Base lobulada com ornamentos vegetais.",
+    "application": "Missas, igrejas e capelas",
+    "tags": [
+     "cálice",
+     "gótico",
+     "bronze",
+     "dourado",
+     "lobulado"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   },
+   {
+    "code": "FT-IGR-15",
+    "name": "Arca da Aliança em Madeira Esculpida",
+    "image": "/img/arca-da-alianca-em-madeira-esculpida.webp",
+    "description": "Réplica artesanal em madeira maciça com hastes em aço inoxidável polido.",
+    "application": "Igrejas, cenários litúrgicos e exposições",
+    "tags": [
+     "arca",
+     "aliança",
+     "madeira",
+     "esculpida",
+     "querubins"
+    ],
+    "finishes": [],
+    "fit": "contain"
+   }
+  ]
+ },
+ {
+  "slug": "letras",
+  "title": "Letras e Manuscritos",
+  "description": "Nomes e datas em bronze fundido. Manuscritos cursivos, caixa alta e numeração. 100% personalizados.",
+  "note": "7 estilos · Totalmente personalizável",
+  "filtersNote": "✦ 100% personalizável",
+  "filters": [
+   {
+    "label": "Manuscrito cursivo",
+    "tag": "manuscrito"
+   },
+   {
+    "label": "Caixa alta",
+    "tag": "caixa-alta"
+   },
+   {
+    "label": "Datas",
+    "tag": "datas"
+   }
+  ],
+  "products": [
+   {
+    "code": "FT-LET-01",
+    "name": "Manuscrito Cursivo — Acabamento Escovado",
+    "image": "/img/manuscrito-cursivo-acabamento-escovado.webp",
+    "description": "100% personalizado com o nome, sobrenome ou texto de sua escolha. Acabamento artesanal em bronze fundido.",
+    "application": "Fachadas de jazigos, mausoléus e residências",
+    "tags": [
+     "manuscrito",
+     "cursivo",
+     "escovado",
+     "nome"
+    ],
+    "finishes": [],
+    "example": "ex: Família, Silva, Oliveira...",
+    "fit": "contain"
+   },
+   {
+    "code": "FT-LET-03",
+    "name": "Caixa Alta — Acabamento Polido Alto Brilho",
+    "image": "/img/caixa-alta-acabamento-polido-alto-brilho.webp",
+    "description": "100% personalizado com o nome, sobrenome ou texto de sua escolha. Acabamento artesanal em bronze fundido.",
+    "application": "Fachadas de jazigos, mausoléus e residências",
+    "tags": [
+     "caixa-alta",
+     "bloco",
+     "polido",
+     "brilho"
+    ],
+    "finishes": [],
+    "example": "ex: FAMÍLIA, SILVA, SANTOS...",
+    "fit": "contain"
+   },
+   {
+    "code": "FT-LET-07",
+    "name": "Linha de Datas em Bronze — N e F",
+    "image": "/img/linha-de-datas-em-bronze-n-e-f.webp",
+    "description": "100% personalizado com o nome, sobrenome ou texto de sua escolha. Acabamento artesanal em bronze fundido.",
+    "application": "Fachadas de jazigos, mausoléus e residências",
+    "tags": [
+     "datas",
+     "nascimento",
+     "falecimento",
+     "numeração"
+    ],
+    "finishes": [],
+    "example": "ex: N 12 10 1950 / F 24 03 2005",
+    "fit": "contain"
+   }
+  ]
+ },
+ {
+  "slug": "ostensorios",
+  "title": "Ostensórios",
+  "description": "Peças litúrgicas para exposição e adoração ao Santíssimo Sacramento. Estilos barroco, gótico, solar e contemporâneo em bronze dourado ou prateado.",
+  "note": "12 modelos · Bronze dourado e prateado",
+  "filtersNote": "Bronze · Dourado e Prateado",
+  "filters": [
+   {
+    "label": "Barroco",
+    "tag": "barroco"
+   },
+   {
+    "label": "Gótico",
+    "tag": "gotico"
+   },
+   {
+    "label": "Contemporâneo",
+    "tag": "contemporaneo"
+   },
+   {
+    "label": "Devocional",
+    "tag": "devocional"
+   },
+   {
+    "label": "Solar",
+    "tag": "solar"
+   },
+   {
+    "label": "Conjunto",
+    "tag": "conjunto"
+   }
+  ],
+  "products": [
+   {
+    "code": "FT-OST-01",
+    "name": "Ostensório Barroco Imperial com Anjos",
+    "image": "/img/ostensorio-barroco-imperial-com-anjos.webp",
+    "description": "Conjunto com ostensório barroco, luneta circular, dois anjos adorantes e seis castiçais.",
+    "application": "Exposição solene, altares de catedrais e basílicas",
+    "tags": [
+     "barroco",
+     "conjunto"
+    ],
+    "finishes": [
+     "Dourado",
+     "Prateado",
+     "Bicolor"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-02",
+    "name": "Ostensório Árvore da Vida",
+    "image": "/img/ostensorio-arvore-da-vida.webp",
+    "description": "Design único inspirado na Árvore da Vida, com ramos e folhas esculpidos irradiando da luneta central.",
+    "application": "Altares contemporâneos, capelas modernas",
+    "tags": [
+     "contemporaneo"
+    ],
+    "finishes": [
+     "Prateado",
+     "Dourado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-03",
+    "name": "Ostensório Solar Barroco em Ouro",
+    "image": "/img/ostensorio-solar-barroco-em-ouro.webp",
+    "description": "Raios alternados em espiga de trigo e setas douradas, com pedras rubis e safira azul na haste.",
+    "application": "Procissões de Corpus Christi, altares paroquiais",
+    "tags": [
+     "barroco",
+     "solar"
+    ],
+    "finishes": [
+     "Dourado",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-04",
+    "name": "Ostensório Espírito Santo — Pomba",
+    "image": "/img/ostensorio-espirito-santo-pomba.webp",
+    "description": "Formato de coração com pomba do Espírito Santo em voo ao topo. Forte simbolismo pentecostal.",
+    "application": "Altares carismáticos, festas de Pentecostes",
+    "tags": [
+     "contemporaneo",
+     "devocional"
+    ],
+    "finishes": [
+     "Dourado",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-05",
+    "name": "Ostensório Coração Sagrado — Moderno",
+    "image": "/img/ostensorio-coracao-sagrado-moderno.webp",
+    "description": "Design minimalista em forma de coração com superfície espelhada e polimento espelho.",
+    "application": "Capelas modernas, altares contemporâneos",
+    "tags": [
+     "contemporaneo",
+     "devocional"
+    ],
+    "finishes": [
+     "Prateado",
+     "Dourado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-06",
+    "name": "Cruz das Arma Christi — Relicário",
+    "image": "/img/cruz-das-arma-christi-relicario.webp",
+    "description": "Cruz com Instrumentos da Paixão: escada, lança, galo, mantos e dados. Obra de rara complexidade.",
+    "application": "Exposição na Semana Santa, museus eclesiásticos",
+    "tags": [
+     "relicario",
+     "devocional"
+    ],
+    "finishes": [
+     "Prateado",
+     "Dourado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-07",
+    "name": "Ostensório Catedral Gótica — Dourado",
+    "image": "/img/ostensorio-catedral-gotica-dourado.webp",
+    "description": "Estilo gótico com pináculos, arcos ogivais e figuras de santos. Luneta retangular central.",
+    "application": "Catedrais, basílicas, sés diocesanas",
+    "tags": [
+     "gotico"
+    ],
+    "finishes": [
+     "Dourado",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-08",
+    "name": "Ostensório Catedral Gótica — Prateado",
+    "image": "/img/ostensorio-catedral-gotica-prateado.webp",
+    "description": "Mesmo modelo gótico catedralício em acabamento prateado brilhante. Base em trevo quatrifólio.",
+    "application": "Catedrais, basílicas, sés diocesanas",
+    "tags": [
+     "gotico"
+    ],
+    "finishes": [
+     "Prateado",
+     "Dourado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-09",
+    "name": "Ostensório Solar com Base Acrílica",
+    "image": "/img/ostensorio-solar-com-base-acrilica.webp",
+    "description": "Solar dourado com rubis e safira. Base acrílica transparente com suporte prateado e pedras azuis.",
+    "application": "Altares modernos, procissões de Corpus Christi",
+    "tags": [
+     "barroco",
+     "solar",
+     "contemporaneo"
+    ],
+    "finishes": [
+     "Dourado com Base Acrílica",
+     "Dourado",
+     "Bicolor"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-10",
+    "name": "Ostensório Solar com Anjos Bicolor — Trono",
+    "image": "/img/ostensorio-solar-com-anjos-bicolor-trono.webp",
+    "description": "Raios flamejantes dourados com quatro anjos adorantes em prata. Base-trono quadrada dourada.",
+    "application": "Exposição solene, procissão de Corpus Christi",
+    "tags": [
+     "barroco",
+     "solar",
+     "conjunto"
+    ],
+    "finishes": [
+     "Bicolor",
+     "Dourado",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-11",
+    "name": "Ostensório Solar com Pelicanos e Anjos — Trono Grande",
+    "image": "/img/ostensorio-solar-com-pelicanos-e-anjos-trono-grande.webp",
+    "description": "Raios flamejantes, anjos em prata e dois pelicanos adorantes na base — símbolo eucarístico.",
+    "application": "Altares-mores de catedrais e basílicas",
+    "tags": [
+     "barroco",
+     "solar",
+     "conjunto"
+    ],
+    "finishes": [
+     "Bicolor",
+     "Dourado",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-OST-12",
+    "name": "Ostensório Coração com Perfil de Nossa Senhora",
+    "image": "/img/ostensorio-coracao-com-perfil-de-nossa-senhora.webp",
+    "description": "Coração cravejado com safiras e rubis. Perfil esculpido de Nossa Senhora em relevo na luneta.",
+    "application": "Capelas marianas, festas de Nossa Senhora",
+    "tags": [
+     "devocional",
+     "contemporaneo"
+    ],
+    "finishes": [
+     "Dourado",
+     "Prateado"
+    ],
+    "fit": "cover"
+   }
+  ]
+ },
+ {
+  "slug": "apliques",
+  "title": "Apliques para Móveis",
+  "description": "Puxadores, rosetas, argolas e batedores em bronze fundido para móveis clássicos, coloniais e de época.",
+  "note": "22 modelos · Bronze dourado envelhecido",
+  "filtersNote": "Bronze · Dourado Envelhecido",
+  "filters": [
+   {
+    "label": "Rosetas",
+    "tag": "roseta"
+   },
+   {
+    "label": "Puxadores",
+    "tag": "puxador"
+   },
+   {
+    "label": "Argolas",
+    "tag": "argola"
+   },
+   {
+    "label": "Batedores",
+    "tag": "batedor"
+   }
+  ],
+  "products": [
+   {
+    "code": "FT-APL-01",
+    "name": "Roseta Quadrada Acanto",
+    "image": "/img/roseta-quadrada-acanto.webp",
+    "description": "Aplique quadrado com motivo de acanto em quatro pétalas simétricas e centro circular em relevo.",
+    "application": "Cantoneiras de móveis, portas, painéis decorativos",
+    "tags": [
+     "roseta",
+     "fixo"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-02",
+    "name": "Roseta Circular Floral",
+    "image": "/img/roseta-circular-floral.webp",
+    "description": "Aplique circular com pétalas duplas em camadas concêntricas. Inspirado na margarida clássica.",
+    "application": "Centro de painéis, portas de armário, móveis coloniais",
+    "tags": [
+     "roseta",
+     "fixo"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-03",
+    "name": "Puxador Barroco com Medalhão",
+    "image": "/img/puxador-barroco-com-medalhao.webp",
+    "description": "Medalhão central esférico com volutas barrocas. Fixação por parafusos aparentes laterais.",
+    "application": "Gavetas de cômodas, buffets, armários coloniais",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-04",
+    "name": "Puxador Rocaille com Dragões",
+    "image": "/img/puxador-rocaille-com-dragoes.webp",
+    "description": "Cabeças de dragões nas extremidades, corpo central em volutas encurvadas. Barroco português.",
+    "application": "Gavetas de aparadores, escrivaninhas clássicas",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-05",
+    "name": "Puxador Cesto Floral",
+    "image": "/img/puxador-cesto-floral.webp",
+    "description": "Cesto oval com flores em relevo no centro e volutas laterais. Estilo rococó Luis XV.",
+    "application": "Gavetas de cômodas, criados-mudos, armários clássicos",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-06",
+    "name": "Argola Pendente — Flor de Leque",
+    "image": "/img/argola-pendente-flor-de-leque.webp",
+    "description": "Espelho superior em leque estriado. Argola em gota alongada com ornamento em flor de lótus.",
+    "application": "Portas de entrada, armários antigos, escrivaninha",
+    "tags": [
+     "argola",
+     "vertical"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-07",
+    "name": "Puxador Espinha com Voluta",
+    "image": "/img/puxador-espinha-com-voluta.webp",
+    "description": "Espelho em voluta central com braços em espinha de acanto. Pingente torcido com motivo floral.",
+    "application": "Gavetas de escrivaninha, secretárias, escritório clássico",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-08",
+    "name": "Argola Folhagem Pendente",
+    "image": "/img/argola-folhagem-pendente.webp",
+    "description": "Espelho retangular em folhagens com pingente inferior de folhas ramificadas em dupla camada.",
+    "application": "Portas internas, gavetas de cômoda, madeira maciça",
+    "tags": [
+     "argola",
+     "vertical"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-09",
+    "name": "Argola Art Nouveau — Lança",
+    "image": "/img/argola-art-nouveau-lanca.webp",
+    "description": "Estilo Art Nouveau com argola oval central e longa ponteira em lança com motivos vegetais.",
+    "application": "Portas de salas, armários de jantar, estilo inglês",
+    "tags": [
+     "argola",
+     "vertical"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-10",
+    "name": "Batedor Barroco com Escudo",
+    "image": "/img/batedor-barroco-com-escudo.webp",
+    "description": "Espelho vertical ornado em volutas barrocas com argola pendente e fundo texturizado ponteado.",
+    "application": "Portas de entrada, portões internos, móveis de aparato",
+    "tags": [
+     "batedor",
+     "vertical"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-11",
+    "name": "Argola Circular Tramado",
+    "image": "/img/argola-circular-tramado.webp",
+    "description": "Espelho redondo com argola pendente acima e centro em relevo tramado com aro estriado.",
+    "application": "Gavetas de aparadores, portas de armário, buffets",
+    "tags": [
+     "argola",
+     "fixo"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-12",
+    "name": "Argola Circular com Pingente Floral",
+    "image": "/img/argola-circular-com-pingente-floral.webp",
+    "description": "Espelho redondo ponteado com pingente em forma de gota e gravação floral interior.",
+    "application": "Gavetas de cômodas, armários antigos, cristaleiras",
+    "tags": [
+     "argola",
+     "fixo"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-13",
+    "name": "Batedor Ogival Duplo",
+    "image": "/img/batedor-ogival-duplo.webp",
+    "description": "Espelho duplo ogival com argola pendente central e volutas simétricas. Design elegante.",
+    "application": "Portas internas, portas de escritório, gabinetes",
+    "tags": [
+     "batedor",
+     "vertical"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-14",
+    "name": "Batedor Losango Geométrico",
+    "image": "/img/batedor-losango-geometrico.webp",
+    "description": "Espelho losango com abertura hexagonal, argola de anel e braços diagonais tubulares.",
+    "application": "Portas de entrada, armários de escritório, coloniais",
+    "tags": [
+     "batedor",
+     "fixo"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-15",
+    "name": "Puxador Oval Renascentista",
+    "image": "/img/puxador-oval-renascentista.webp",
+    "description": "Oval com volutas barrocas simétricas, centro em florão em relevo. Acabamento dourado polido.",
+    "application": "Gavetas de aparadores grandes, buffets, sala",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-16",
+    "name": "Puxador Barroco com Medalhão Oval e Pérolas",
+    "image": "/img/puxador-barroco-com-medalhao-oval-e-perolas.webp",
+    "description": "Medalhão oval central flanqueado por pérolas esféricas e volutas com folhagens.",
+    "application": "Gavetas de cômodas nobres, escrivaninhas, aparato",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-17",
+    "name": "Puxador Assimétrico Concha e Folha",
+    "image": "/img/puxador-assimetrico-concha-e-folha.webp",
+    "description": "Assimétrico rococó com concha em leque à direita e folhagens à esquerda. Design dinâmico.",
+    "application": "Gavetas de escrivaninha, secretárias Luis XV",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-18",
+    "name": "Puxador Acanto Aberto com Argola",
+    "image": "/img/puxador-acanto-aberto-com-argola.webp",
+    "description": "Folhas de acanto simétricas irradiando das extremidades com argola central em anel simples.",
+    "application": "Gavetas de cômodas, armários de sala, vitrines",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-19",
+    "name": "Puxador Concha Ondulante",
+    "image": "/img/puxador-concha-ondulante.webp",
+    "description": "Conchas em leque nas extremidades, corpo ondulado com nervuras e pérola central. Rococó marítimo.",
+    "application": "Gavetas de cômodas, armários de banheiro clássico",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-20",
+    "name": "Puxador Floral com Rosas",
+    "image": "/img/puxador-floral-com-rosas.webp",
+    "description": "Rosas e folhagens em altorrelevo com argola semicircular central. Estilo vitoriano floral.",
+    "application": "Cômodas de quarto, armários de banheiro, românticos",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-21",
+    "name": "Puxador Concha Dupla em U",
+    "image": "/img/puxador-concha-dupla-em-u.webp",
+    "description": "Semicírculo com conchas em dupla camada e enrolamento central de acanto. Inspiração francesa.",
+    "application": "Gavetas de aparadores, buffets, sala de jantar",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido"
+    ],
+    "fit": "cover"
+   },
+   {
+    "code": "FT-APL-22",
+    "name": "Puxador Acanto com Medalhão Central",
+    "image": "/img/puxador-acanto-com-medalhao-central.webp",
+    "description": "Grande extensão com folhagens de acanto, flores laterais, medalhão central ornado e roseta.",
+    "application": "Aparadores de grandes dimensões, buffets históricos",
+    "tags": [
+     "puxador",
+     "horizontal"
+    ],
+    "finishes": [
+     "Dourado Envelhecido",
+     "Dourado Polido",
+     "Prateado"
+    ],
+    "fit": "cover"
+   }
+  ]
+ }
+]
