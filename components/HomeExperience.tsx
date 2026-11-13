@@ -217,32 +217,6 @@ export default function HomeExperience() {
         </div>
       </section>
 
-      {/* Registros reais */}
-      <section className="solid-soft" aria-labelledby="reel-t">
-        <div className="wrap reel">
-          <div>
-            <p className="eyebrow" data-reveal>
-              Registros reais da nossa oficina
-            </p>
-            <h2 id="reel-t" className="h2" style={{ margin: "1.2rem 0" }} data-reveal>
-              O bronze <em>sendo fundido.</em>
-            </h2>
-            <p className="lead" data-reveal>
-              Cada peça começa com alumínio ou bronze derretido a mais de 700°C. Assista ao processo artesanal que
-              fazemos há mais de 40 anos.
-            </p>
-          </div>
-          <figure data-reveal>
-            <video controls playsInline preload="none" poster="/img/poster-fundicao1.jpg" src="/videos/fundicao1.mp4" />
-            <figcaption>Derretimento do metal</figcaption>
-          </figure>
-          <figure data-reveal>
-            <video controls playsInline preload="none" poster="/img/poster-fundicao2.jpg" src="/videos/fundicao2.mp4" />
-            <figcaption>Metal em estado líquido</figcaption>
-          </figure>
-        </div>
-      </section>
-
       {/* CENA 03 — ARTE */}
       <section id="arte" className="scene" style={{ height: "150vh" }}>
         <div className="pin top scrim-l">
