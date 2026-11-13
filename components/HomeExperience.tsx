@@ -1,10 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import type { Foundry } from "@/lib/foundry";
 import { categories, COVER } from "@/lib/catalog";
 import { whatsappUrl, DEFAULT_WPP } from "@/lib/site";
 import { WhatsIcon } from "./WhatsFloat";
@@ -30,109 +29,23 @@ const VALUES = ["Tradição", "Qualidade", "Fé", "Família", "Honestidade", "Du
 
 export default function HomeExperience() {
   const root = useRef<HTMLDivElement>(null);
-  const canvas = useRef<HTMLCanvasElement>(null);
   const track = useRef<HTMLDivElement>(null);
-  const [fallback, setFallback] = useState(false);
-  const [step, setStep] = useState(0);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const lite =
-      window.matchMedia("(max-width: 820px)").matches ||
-      (navigator.hardwareConcurrency || 8) <= 4 ||
-      ((navigator as Navigator & { deviceMemory?: number }).deviceMemory || 8) <= 4;
-
-    let foundry: Foundry | null = null;
-    let dead = false;
-    const p = { a: 0, b: 0, c: 0, d: 0 };
-    const push = () => foundry?.setStory(p.a + p.b + p.c + p.d);
-
-    if (reduced) setFallback(true);
-    else
-      import("@/lib/foundry")
-        .then(({ createFoundry }) => {
-          if (dead || !canvas.current) return;
-          try {
-            foundry = createFoundry(canvas.current, { lite });
-            push();
-          } catch {
-            setFallback(true);
-          }
-        })
-        .catch(() => setFallback(true));
-
     const ctx = gsap.context(() => {
-      const scrub = (id: string, key: keyof typeof p, extra?: (v: number) => void) =>
-        ScrollTrigger.create({
-          trigger: id,
-          start: "top top",
-          end: "bottom bottom",
-          onUpdate: (st) => {
-            p[key] = st.progress;
-            push();
-            extra?.(st.progress);
-          },
-        });
-
-      scrub("#inicio", "a", (v) => {
-        gsap.set(".hero-copy", { opacity: 1 - Math.min(1, v * 2.4), y: -v * 120 });
-        gsap.set(".scroll-hint", { opacity: 1 - Math.min(1, v * 8) });
-      });
-      scrub("#processo", "b", (v) => {
-        let i = 0;
-        STEPS.forEach((s, k) => v >= s.at && (i = k));
-        setStep(i);
-        gsap.set(".process-copy", { opacity: Math.min(1, v * 8) * (1 - Math.max(0, (v - 0.94) * 16)) });
-        document.querySelectorAll<HTMLElement>(".step .bar i").forEach((el, k) => {
-          const a = STEPS[k].at, b = STEPS[k + 1]?.at ?? 1;
-          el.style.transform = `scaleX(${Math.min(1, Math.max(0, (v - a) / (b - a)))})`;
-        });
-      });
-      scrub("#arte", "c", (v) => {
-        gsap.set(".art-copy", { opacity: Math.min(1, v * 6) * (1 - Math.max(0, (v - 0.92) * 12)) });
-        document.querySelectorAll<HTMLElement>(".detail-tags span").forEach((el, k) => {
-          el.style.opacity = String(Math.min(1, Math.max(0, (v - 0.3 - k * 0.1) * 8)));
-        });
-      });
-      // encerramento: a cena volta enquanto a seção entra na tela
-      ScrollTrigger.create({
-        trigger: "#contato",
-        start: "top bottom",
-        end: "bottom bottom",
-        onUpdate: (st) => {
-          p.d = st.progress;
-          push();
-          gsap.set(".final-copy", { opacity: Math.min(1, Math.max(0, (st.progress - 0.3) * 4)), y: (1 - Math.min(1, st.progress * 1.6)) * 40 });
-        },
-      });
-      // pausa o WebGL enquanto o showroom e o legado cobrem a tela
-      ScrollTrigger.create({
-        trigger: "#colecao",
-        start: "top top",
-        endTrigger: "#contato",
-        end: "top bottom",
-        onToggle: (st) => foundry?.setActive(!st.isActive),
-      });
-
       if (!reduced) {
         ScrollTrigger.batch("[data-reveal]", {
           start: "top 88%",
           once: true,
           onEnter: (els) => gsap.to(els, { opacity: 1, y: 0, duration: 1.1, ease: "power3.out", stagger: 0.09 }),
         });
-        gsap.from(".hero-copy > *", { opacity: 0, y: 34, duration: 1.4, ease: "power3.out", stagger: 0.14, delay: 0.35 });
       }
     }, root);
 
-    const onResize = () => foundry?.resize();
-    window.addEventListener("resize", onResize);
-
     return () => {
-      dead = true;
-      window.removeEventListener("resize", onResize);
       ctx.revert();
-      foundry?.dispose();
     };
   }, []);
 
@@ -157,12 +70,12 @@ export default function HomeExperience() {
   return (
     <div ref={root}>
       <div className="stage" aria-hidden>
-        {fallback ? <div className="stage-fallback" /> : <canvas ref={canvas} />}
+        <div className="stage-fallback" />
         <div className="stage-vignette" />
       </div>
 
       {/* CENA 01 — ORIGEM */}
-      <section id="inicio" className="scene" style={{ height: "230vh" }}>
+      <section id="inicio" className="scene">
         <div className="pin scrim-l">
           <div className="wrap rel">
             <div className="hero-copy" style={{ maxWidth: "46rem" }}>
@@ -191,10 +104,10 @@ export default function HomeExperience() {
       </section>
 
       {/* CENA 02 — PROCESSO */}
-      <section id="processo" className="scene" style={{ height: "430vh" }}>
+      <section id="processo" className="scene">
         <div className="pin top scrim-l">
           <div className="wrap rel">
-            <div className="process-copy" style={{ maxWidth: "34rem", opacity: 0 }}>
+            <div className="process-copy" style={{ maxWidth: "34rem" }} data-reveal>
               <p className="scene-num">02 — O PROCESSO</p>
               <h2 className="h2" style={{ margin: "1rem 0" }}>
                 Da matéria-prima <em>à eternidade.</em>
@@ -204,7 +117,7 @@ export default function HomeExperience() {
               </p>
               <ol className="steps">
                 {STEPS.map((s, i) => (
-                  <li key={s.label} className={`step ${i <= step ? "on" : ""}`}>
+                  <li key={s.label} className="step on">
                     <b>0{i + 1}</b>
                     <span>{s.label}</span>
                     <div className="bar">
@@ -245,10 +158,10 @@ export default function HomeExperience() {
       </section>
 
       {/* CENA 03 — ARTE */}
-      <section id="arte" className="scene" style={{ height: "330vh" }}>
+      <section id="arte" className="scene">
         <div className="pin top scrim-l">
           <div className="wrap rel">
-            <div className="art-copy" style={{ maxWidth: "32rem", opacity: 0 }}>
+            <div className="art-copy" style={{ maxWidth: "32rem" }} data-reveal>
               <p className="scene-num">03 — A ARTE</p>
               <h2 className="h2" style={{ margin: "1rem 0" }}>
                 A arte está <em>nos detalhes.</em>
@@ -259,7 +172,7 @@ export default function HomeExperience() {
               </p>
               <div className="detail-tags">
                 {["Textura", "Relevo", "Brilho", "Acabamento", "Detalhe artesanal"].map((t) => (
-                  <span key={t} style={{ opacity: 0 }}>
+                  <span key={t}>
                     {t}
                   </span>
                 ))}
@@ -467,10 +380,10 @@ export default function HomeExperience() {
       </section>
 
       {/* CENA 06 — A PRÓXIMA OBRA */}
-      <section id="contato" className="scene" style={{ height: "200vh" }}>
+      <section id="contato" className="scene">
         <div className="pin top scrim-l">
           <div className="wrap rel">
-            <div className="final-copy" style={{ maxWidth: "36rem", opacity: 0 }}>
+            <div className="final-copy" style={{ maxWidth: "36rem" }} data-reveal>
               <p className="scene-num">
                 06 — A PRÓXIMA OBRA
               </p>
