@@ -25,16 +25,45 @@ const TIMELINE = [
   ["2025", "Plataforma digital", "Transformação digital levando 40 anos de tradição artesanal para o ambiente online."],
 ];
 
+/** Fundos cinematográficos: uma imagem por cena, trocadas conforme o scroll. */
+const SHOTS = [
+  { id: "#inicio", src: "/img/cena-oficina.webp" },
+  { id: "#processo", src: "/img/cena-vazamento.webp" },
+  { id: "#arte", src: "/img/cena-detalhe.webp" },
+  { id: "#contato", src: "/img/cena-molde.webp" },
+];
+
 const VALUES = ["Tradição", "Qualidade", "Fé", "Família", "Honestidade", "Durabilidade", "Arte", "Respeito", "Comprometimento"];
 
 export default function HomeExperience() {
   const root = useRef<HTMLDivElement>(null);
   const track = useRef<HTMLDivElement>(null);
+  const embers = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const shots = Array.from(document.querySelectorAll<HTMLElement>(".shot"));
+    const show = (i: number) => shots.forEach((el, k) => el.classList.toggle("on", k === i));
+
     const ctx = gsap.context(() => {
+      SHOTS.forEach((s, i) => {
+        // a imagem da cena fica ativa do começo da seção até a próxima cena assumir
+        ScrollTrigger.create({
+          trigger: s.id,
+          start: "top 55%",
+          end: "bottom 55%",
+          onEnter: () => show(i),
+          onEnterBack: () => show(i),
+        });
+        if (!reduced)
+          ScrollTrigger.create({
+            trigger: s.id,
+            start: "top bottom",
+            end: "bottom top",
+            onUpdate: (st) => shots[i]?.style.setProperty("--z", String(1.03 + st.progress * 0.11)),
+          });
+      });
       if (!reduced) {
         ScrollTrigger.batch("[data-reveal]", {
           start: "top 88%",
@@ -44,7 +73,59 @@ export default function HomeExperience() {
       }
     }, root);
 
+    const refresh = () => ScrollTrigger.refresh();
+    window.addEventListener("load", refresh);
+    const late = window.setTimeout(refresh, 2500);
+
+    // brasas leves subindo por cima das imagens
+    let raf = 0;
+    const cv = embers.current;
+    const g = cv?.getContext("2d");
+    if (cv && g && !reduced) {
+      const n = window.innerWidth < 820 ? 18 : 40;
+      const ps = Array.from({ length: n }, () => ({ x: Math.random(), y: Math.random(), r: 0.6 + Math.random() * 1.6, v: 0.02 + Math.random() * 0.05, p: Math.random() * 6.28 }));
+      const fit = () => {
+        cv.width = cv.clientWidth;
+        cv.height = cv.clientHeight;
+      };
+      fit();
+      window.addEventListener("resize", fit);
+      let last = performance.now();
+      const tick = (now: number) => {
+        raf = requestAnimationFrame(tick);
+        const dt = Math.min(0.05, (now - last) / 1000);
+        last = now;
+        if (document.hidden) return;
+        g.clearRect(0, 0, cv.width, cv.height);
+        for (const e of ps) {
+          e.y -= e.v * dt;
+          e.p += dt * 1.5;
+          if (e.y < -0.02) {
+            e.y = 1.02;
+            e.x = Math.random();
+          }
+          const x = (e.x + Math.sin(e.p) * 0.012) * cv.width, y = e.y * cv.height;
+          const a = (0.35 + 0.4 * Math.sin(e.p * 1.7)) * Math.min(1, e.y * 3);
+          const grd = g.createRadialGradient(x, y, 0, x, y, e.r * 5);
+          grd.addColorStop(0, `rgba(255,190,110,${a})`);
+          grd.addColorStop(1, "rgba(255,120,30,0)");
+          g.fillStyle = grd;
+          g.fillRect(x - e.r * 5, y - e.r * 5, e.r * 10, e.r * 10);
+        }
+      };
+      raf = requestAnimationFrame(tick);
+      return () => {
+        cancelAnimationFrame(raf);
+        window.removeEventListener("resize", fit);
+        window.removeEventListener("load", refresh);
+        clearTimeout(late);
+        ctx.revert();
+      };
+    }
+
     return () => {
+      window.removeEventListener("load", refresh);
+      clearTimeout(late);
       ctx.revert();
     };
   }, []);
@@ -71,11 +152,16 @@ export default function HomeExperience() {
     <div ref={root}>
       <div className="stage" aria-hidden>
         <div className="stage-fallback" />
+        {SHOTS.map((s, i) => (
+          <div key={s.src} className={`shot ${i === 0 ? "on" : ""}`} style={{ backgroundImage: `url(${s.src})` }} />
+        ))}
+        <div className="stage-shade" />
+        <canvas className="embers" ref={embers} />
         <div className="stage-vignette" />
       </div>
 
       {/* CENA 01 — ORIGEM */}
-      <section id="inicio" className="scene">
+      <section id="inicio" className="scene" style={{ height: "150vh" }}>
         <div className="pin scrim-l">
           <div className="wrap rel">
             <div className="hero-copy" style={{ maxWidth: "46rem" }}>
@@ -104,7 +190,7 @@ export default function HomeExperience() {
       </section>
 
       {/* CENA 02 — PROCESSO */}
-      <section id="processo" className="scene">
+      <section id="processo" className="scene" style={{ height: "150vh" }}>
         <div className="pin top scrim-l">
           <div className="wrap rel">
             <div className="process-copy" style={{ maxWidth: "34rem" }} data-reveal>
@@ -158,7 +244,7 @@ export default function HomeExperience() {
       </section>
 
       {/* CENA 03 — ARTE */}
-      <section id="arte" className="scene">
+      <section id="arte" className="scene" style={{ height: "150vh" }}>
         <div className="pin top scrim-l">
           <div className="wrap rel">
             <div className="art-copy" style={{ maxWidth: "32rem" }} data-reveal>
@@ -380,10 +466,10 @@ export default function HomeExperience() {
       </section>
 
       {/* CENA 06 — A PRÓXIMA OBRA */}
-      <section id="contato" className="scene">
+      <section id="contato" className="scene" style={{ height: "130vh" }}>
         <div className="pin top scrim-l">
           <div className="wrap rel">
-            <div className="final-copy" style={{ maxWidth: "36rem" }} data-reveal>
+            <div className="final-copy" style={{ maxWidth: "36rem" }}>
               <p className="scene-num">
                 06 — A PRÓXIMA OBRA
               </p>
